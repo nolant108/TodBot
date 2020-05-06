@@ -29,8 +29,8 @@ bot.on('message', msg=>{
     if(msg.content === '!todhelp'){
 
         msg.reply('Here are my commands' 
-        + 'I love you Tod' 
-        + 'You are my best friend Tod'
+        + 'I love you Tod, ' 
+        + 'You are my best friend Tod, '
         + 'Hello Tod');
 
     }
