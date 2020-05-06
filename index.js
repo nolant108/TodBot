@@ -13,4 +13,11 @@ bot.on('message', msg=>{
         msg.reply('Hello Friend!');
 
     }
+
+    if(msg.content === 'You are my best friend Tod'){
+
+        msg.reply(' Your even better! :)');
+
+    }
+    
 })
