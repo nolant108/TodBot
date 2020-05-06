@@ -25,5 +25,14 @@ bot.on('message', msg=>{
         msg.reply('Love you too! :)');
 
     }
+
+    if(msg.content === '!todhelp'){
+
+        msg.reply('Here are my commands' 
+        + 'I love you Tod' 
+        + 'You are my best friend Tod'
+        + 'Hello Tod');
+
+    }
     
 })
