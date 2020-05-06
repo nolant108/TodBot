@@ -19,5 +19,11 @@ bot.on('message', msg=>{
         msg.reply(' Your even better! :)');
 
     }
+
+        if(msg.content === 'I love you Tod'){
+
+        msg.reply('Love you too! :)');
+
+    }
     
 })
